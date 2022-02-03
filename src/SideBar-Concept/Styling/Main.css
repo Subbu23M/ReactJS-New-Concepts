@@ -1,0 +1,77 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.sideBarParent {
+  width: 100vw;
+  height: 100vh;
+  background-color: lavender;
+}
+
+.sideBarParent .sideBarChild {
+  width: 300px;
+  height: 100%;
+  background-color: lavenderblush;
+}
+
+.sideBarParent .sideBarChild .unOrder {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+
+.sideBarParent .sideBarChild .unOrder #active {
+  background-color: darkorchid;
+  color: white;
+}
+
+.sideBarParent .sideBarChild .unOrder .listIng {
+  width: 100%;
+  height: 50px;
+  background-color: lawngreen;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: darkcyan;
+  border: 2px solid red;
+}
+
+.sideBarParent .sideBarChild .unOrder .listIng:hover {
+  cursor: pointer;
+  background-color: lemonchiffon;
+  color: darkgray;
+}
+
+.sideBarParent .sideBarChild .unOrder .listIng .iCon {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.sideBarParent .sideBarChild .unOrder .listIng .tItle {
+  -webkit-box-flex: 70%;
+      -ms-flex: 70%;
+          flex: 70%;
+}
+/*# sourceMappingURL=Main.css.map */

@@ -1,0 +1,14 @@
+1)To install React Date Picker
+  npm install react-datepicker --save
+
+2)To install Sass
+  npm install node-sass
+
+3)To install react Icons
+  npm install react-icons --save
+
+4)To install formik
+  npm install formik --save
+
+5)To install yup
+  npm install -S yup
