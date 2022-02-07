@@ -7,7 +7,7 @@ import 'react-datepicker/dist/react-datepicker.css';
 const App = () => {
     // State variable & function
     const[selectedDate,setSelectedDate] = useState(null);
-    console.log(selectedDate);
+    // console.log(selectedDate);
 
     // Event Handler as callback function
     const handleSelectedDate = (date) => {
