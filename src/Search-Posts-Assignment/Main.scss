@@ -1,0 +1,13 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}

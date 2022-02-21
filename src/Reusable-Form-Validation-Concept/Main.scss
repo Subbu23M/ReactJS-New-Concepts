@@ -1,0 +1,15 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
