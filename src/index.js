@@ -17,6 +17,8 @@ import ReactDOM from 'react-dom';
 
 // import App from './Reusable-Form-Validation-Concept/App';
 
+import App from './Intro component with sign-up form challenge/Components/App';
+
 const rootElement = document.getElementById('root');
 
 // ReactDOM.render(

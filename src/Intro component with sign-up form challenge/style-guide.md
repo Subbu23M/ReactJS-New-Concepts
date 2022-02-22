@@ -20,14 +20,14 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Dark Blue: hsl(249, 10%, 26%) 
-- Grayish Blue: hsl(246, 25%, 77%)
+$darkBlue: hsl(249, 10%, 26%); 
+$grayishBlue: hsl(246, 25%, 77%);
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 16px
+$fontSize: 16px
 
 ### Font
 

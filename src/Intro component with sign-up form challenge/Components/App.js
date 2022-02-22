@@ -1,11 +1,10 @@
 import React from 'react';
+import './Main.scss';
 
 const App = (props) => {
     return(
         <>
-            <h1>
-                Frontend Mentor Challange-1
-            </h1>
+            
         </>
     )
 

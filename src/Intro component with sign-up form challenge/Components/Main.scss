@@ -1,5 +1,16 @@
-body{
+// Colors
+$red:hsl(0, 100%, 74%);
+$green:hsl(154, 59%, 51%);
+$blue:hsl(248, 32%, 49%);
+$darkBlue: hsl(249, 10%, 26%);
+$grayishBlue: hsl(246, 25%, 77%);
+$fontSize: 16px;
+$fontFamily:'Poppins',
+sans-serif;
+
+body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: $fontFamily;
 }
