@@ -13,4 +13,41 @@ body {
     margin: 0px;
     box-sizing: border-box;
     font-family: $fontFamily;
+    background: url(../assets/bg-intro-desktop.png);
+    background-color: $red;
+}
+
+h2 {
+    color: white;
+    font-size: 45px;
+}
+
+p {
+    letter-spacing: 0.2px;
+}
+
+.card {
+    width: 445px;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.textCol {
+    margin-top: 15rem;
+}
+
+.btnColor {
+    background-color: $blue;
+    margin-top: 7rem;
+}
+
+.btnOneColor {
+    color: $grayishBlue;
+}
+
+.btnColorTwo {
+    background-color: $green;
+    text-transform: uppercase;
+    color: white;
+    width: 380px;
 }

@@ -1,0 +1,36 @@
+1)The constructor function is where you initiate the component's properties.
+
+2)The constructor function is also where you honor the inheritance of the parent component by including the super() statement, which executes the parent component's constructor function, and your component has access to all the functions of the parent component (React.Component).
+
+3)Whenever the state is changed, the component that contains the state will re-render on the screen.
+
+4)There is a designated way to change states. To change state, we use this.setState() method.
+Changing the state Object
+To change a value in the state object, use the this.setState() method.
+When a value in the state object changes, the component will re-render, meaning that the output will change according to the new value(s).
+
+5)Each component in React has a lifecycle which you can monitor and manipulate during its three main phases.
+
+The three phases are: Mounting, Updating, and Unmounting.
+
+6)Mounting-Mounting means putting elements into the DOM.
+React has four built-in methods that gets called, in this order, when mounting a component:
+    1)constructor() - The constructor() method is called before anything else, when the component is initiated, and it is the natural place to set up the initial state and other initial values.
+    The constructor method is called, by React, every time you make a component.
+
+    2)The render() method is required, and is the method that actually outputs the HTML to the DOM.
+
+    3)The componentDidMount() method is called after the component is rendered.
+    This is where you run statements that requires that the component is already placed in the DOM.
+    setTimeOut(callbackfunction,duration)
+
+7)Updating - The next phase in the lifecycle is when a component is updated.
+A component is updated whenever there is a change in the component's state or props.
+
+    1)shouldComponentUpdate
+    In the shouldComponentUpdate() method you can return a Boolean value that specifies whether React should continue with the rendering or not.
+
+8)The next phase in the lifecycle is when a component is removed from the DOM, or unmounting as React likes to call it.
+React has only one built-in method that gets called when a component is unmounted:
+
+    1)The componentWillUnmount method is called when the component is about to be removed from the DOM.
