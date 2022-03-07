@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 
 // import YouTubeForm from './Form-Validation-Concept/YouTubeForm';
 
-// import App from './Array-Of-Objects/App';
+import App from './Array-Of-Objects/App';
 
 // import App from './Search-Posts-Assignment/App';
 
@@ -19,7 +19,7 @@ import ReactDOM from 'react-dom';
 
 // import App from './Intro component with sign-up form challenge/Components/App';
 
-import App from './Class-Based-Components-Tutorial/App';
+// import App from './Class-Based-Components-Tutorial/App';
 
 const rootElement = document.getElementById('root');
 
