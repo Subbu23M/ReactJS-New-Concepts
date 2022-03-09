@@ -1,9 +1,9 @@
 import React,{useEffect} from 'react';
-import '../Styling/Main.scss';
 import Jumbotron from '../Components/Jumbotron';
 import ButtonFilter from './ButtonFilter';
 import ListApi from './ListApi';
 import { useAxios } from './hooks/useAxios';
+import '../Styling/Main.scss';
 
 const App = () => {
     // Object Destructuring - ES6
@@ -12,15 +12,16 @@ const App = () => {
         data
     } = useAxios('entries');
 
-    // Invoke useEffect hook
     const responseData = () => {
+        // Invoke callback function
         fetchData({
             params: {
                 category: 'Animals'
             }
         });
     }
-
+    
+    // Invoke useEffect hook
     useEffect(responseData,[]);
 
     return(

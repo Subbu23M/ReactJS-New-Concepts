@@ -32,6 +32,7 @@ const DisplayCard = ({data}) => {
                                                 </p>
 
                                                 <h3>
+                                                    {/* Conditional Rendering - Ternary Operator */}
                                                     Auth : { (Auth) ? Auth : <span>-</span>}
                                                 </h3>
 

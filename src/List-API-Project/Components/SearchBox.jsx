@@ -15,7 +15,7 @@ const SearchBox = ({fetchData}) => {
     // Event Handler as callback function - 2
     const handleEnter = (e) => {
         if (e.key === 'Enter') {
-            // Invoke function
+            // Invoke callback function
             fetchData({
                 params: {
                     title: userInput
@@ -28,9 +28,9 @@ const SearchBox = ({fetchData}) => {
     }
 
     // Event Handler as callback function - 3
-    const handleSearch = (e) => {
+    const handleSearch = () => {
         if (userInput.length > 0) {
-            // Invoke function
+            // Invoke callback function
             fetchData({
                 params: {
                     title: userInput

@@ -16,4 +16,4 @@ const ListApi = ({dataOne}) => {
     )
 }
 
-export default ListApi
+export default ListApi;

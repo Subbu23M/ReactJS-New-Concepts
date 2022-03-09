@@ -21,7 +21,9 @@ import ReactDOM from 'react-dom';
 
 // import App from './Class-Based-Components-Tutorial/App';
 
-import App from './List-API-Project/Components/App';
+// import App from './List-API-Project/Components/App';
+
+import App from './Dynamic-Table-Component/Components/App';
 
 const rootElement = document.getElementById('root');
 

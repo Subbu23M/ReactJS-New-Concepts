@@ -10,16 +10,16 @@ const ButtonFilter = ({fetchData:fetchApi}) => {
         }
     } = useAxios('categories');
 
-    // Invoke useEffect hook
     const responseData = () => {
         fetchData();
     }
-
+    
+    // Invoke useEffect hook
     useEffect(responseData, []);
 
     // Event Handler as callback function
     const handleButtonSearch = (e) => {
-        // Invoke function
+        // Invoke callback function
         fetchApi({
             params: {
                 category: e.target.value
