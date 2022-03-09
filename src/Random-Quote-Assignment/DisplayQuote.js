@@ -91,14 +91,11 @@ const DisplayQuote = (props) => {
                 </footer>
             </blockquote>
                 
-
-                
             {/* Child Component Instance */}
             <Button
                 btnText='new quote'
                 onClickEvent = {handleClick}
             />
-                
         </div>
     )
     

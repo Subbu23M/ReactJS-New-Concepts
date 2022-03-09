@@ -80,6 +80,9 @@ const FormCol = (props) => {
                         textThree = 'Claim your free trial'
                         className='btn btnColorTwo btn-lg' 
                     />
+                    <p className='text-dark mt-1'>
+                        By clicking the button, you are agreeing to our <span className='text-danger'>Terms and Services</span>
+                    </p>
                 </form>
             </div>
         </>

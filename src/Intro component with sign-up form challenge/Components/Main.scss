@@ -28,8 +28,9 @@ p {
 
 .card {
     width: 445px;
-    padding: 2rem;
+    padding: 1rem;
     margin-top: 1rem;
+    border-radius: 10px;
 }
 
 .textCol {
@@ -49,5 +50,19 @@ p {
     background-color: $green;
     text-transform: uppercase;
     color: white;
-    width: 380px;
+    width: 415px;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color:none;
+    outline: 0;
+    box-shadow: none;
 }

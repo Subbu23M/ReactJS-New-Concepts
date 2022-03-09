@@ -1,0 +1,67 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.main {
+    // linear-gradient:direction,colors
+    background: linear-gradient(to right, indigo, purple, pink);
+
+    // padding:top right bottom left
+    padding: 5rem 0px 5rem 0px;
+}
+
+input {
+    overflow: visible;
+    width: 500px;
+    height: 50px;
+}
+
+.btn-one {
+    transition: none;
+    width: 60px;
+    height: 50px;
+
+    &:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: none;
+    border-color: none;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.card {
+    background-color: pink;
+    border-radius: 10px;
+    border-color: black;
+    height: auto;
+
+    &:hover {
+        background-color: lavenderblush;
+    }
+}
