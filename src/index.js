@@ -23,7 +23,7 @@ import ReactDOM from 'react-dom';
 
 // import App from './List-API-Project/Components/App';
 
-import App from './Dynamic-Table-Component/Components/App';
+// import App from './Dynamic-Table-Component/Components/App';
 
 const rootElement = document.getElementById('root');
 
@@ -36,7 +36,7 @@ const rootElement = document.getElementById('root');
 
 ReactDOM.render(
     <React.StrictMode>
-    <App />
+        <App />
     </React.StrictMode>,
     rootElement
 );
