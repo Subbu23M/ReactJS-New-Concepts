@@ -1,0 +1,28 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.underline {
+    width: 210px;
+    height: 0.4rem;
+}
+
+input {
+    overflow: visible;
+    width: 500px;
+    height: 50px;
+}
+
+.btn-one {
+    transition: none;
+    width: 60px;
+    height: 50px;
+    margin-bottom: 0.2rem;
+
+    &:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+}

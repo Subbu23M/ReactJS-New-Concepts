@@ -25,6 +25,8 @@ import ReactDOM from 'react-dom';
 
 // import App from './Dynamic-Table-Component/Components/App';
 
+// import App from './Dictionary-App-Project/Components/App';
+
 const rootElement = document.getElementById('root');
 
 // ReactDOM.render(
