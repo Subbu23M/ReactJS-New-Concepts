@@ -21,3 +21,6 @@
 
 9)To add Sass file
   import './Main.scss';
+
+10)To install tesseract.js 
+   npm install tesseract
