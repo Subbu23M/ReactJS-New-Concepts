@@ -27,7 +27,9 @@ import ReactDOM from 'react-dom';
 
 // import App from './Dictionary-App-Project/Components/App';
 
-import App from './Image-To-Text-Conversion-App/Components/App';
+// import App from './Image-To-Text-Conversion-App/Components/App';
+
+// import App from './React-Toast-App/Components/App';
 
 const rootElement = document.getElementById('root');
 

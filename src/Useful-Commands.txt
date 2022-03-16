@@ -24,3 +24,6 @@
 
 10)To install tesseract.js 
    npm install tesseract
+
+11)To install react-hooks-helper
+   npm i react-hooks-helper 
