@@ -31,6 +31,10 @@ import ReactDOM from 'react-dom';
 
 // import App from './React-Toast-App/Components/App';
 
+// import App from './About-useCallback-Hook/App';
+
+import App from './Infinite-Scroll-Image-Gallery/Components/App';
+
 const rootElement = document.getElementById('root');
 
 // ReactDOM.render(
