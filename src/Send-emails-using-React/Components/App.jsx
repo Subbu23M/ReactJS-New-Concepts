@@ -1,11 +1,12 @@
 import React from 'react';
+import '../Styling/Main.scss';
 
 const App = () => {
     return(
         <>
-            <h1>
-                Infinite Scroll Image Gallery
-            </h1>
+            <h2>
+                Send emails using React 
+            </h2>
         </>
     )
 }

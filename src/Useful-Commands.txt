@@ -27,3 +27,6 @@
 
 11)To install react-hooks-helper
    npm i react-hooks-helper 
+
+12)To install react-infinite-scroll-component
+   npm i react-infinite-scroll-component

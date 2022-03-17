@@ -33,7 +33,7 @@ import ReactDOM from 'react-dom';
 
 // import App from './About-useCallback-Hook/App';
 
-import App from './Infinite-Scroll-Image-Gallery/Components/App';
+// import App from './Send-emails-using-React/Components/App';
 
 const rootElement = document.getElementById('root');
 
