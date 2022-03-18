@@ -30,3 +30,6 @@
 
 12)To install react-infinite-scroll-component
    npm i react-infinite-scroll-component
+
+13)To install EmailJS
+  npm install @emailjs/browser --save

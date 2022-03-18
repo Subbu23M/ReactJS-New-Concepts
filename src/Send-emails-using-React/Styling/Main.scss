@@ -1,5 +1,31 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+}
+
+.main {
+    min-height: 80vh;
+    background-color: aliceblue;
+
+    .left {
+        margin-top: 18rem;
+    }
+
+    .right {
+        margin-top: 7rem;
+    }
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: black;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn,
+button:focus {
+    outline: none;
 }
