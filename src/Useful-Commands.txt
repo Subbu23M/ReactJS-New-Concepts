@@ -33,3 +33,9 @@
 
 13)To install EmailJS
   npm install @emailjs/browser --save
+
+14)To install react-router-dom
+  npm install react-router-dom@5.2.0
+
+15)To install React Splide
+  npm install @splidejs/react-splide
