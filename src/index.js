@@ -35,7 +35,9 @@ import ReactDOM from 'react-dom';
 
 // import App from './Send-emails-using-React/Components/App';
 
-import App from './Build-a-Recipe-App/App';
+// import App from './Build-a-Recipe-App/App';
+
+// import App from './Scroll-Indicator-Progress-Bar/App';
 
 const rootElement = document.getElementById('root');
 
