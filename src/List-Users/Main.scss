@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.parent {
+    width: 50%;
+    background-color: darkcyan;
+    margin: 0 auto;
+
+    h1 {
+        color: darkgray;
+    }
+
+    h2 {
+        color: beige;
+    }
+
+    p {
+        color: blanchedalmond;
+    }
+}
