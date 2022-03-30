@@ -4,8 +4,12 @@ const MovieDisplay = ({data}) => {
             <div className="container">
                 <div className="row">
                     {
-                        data.map((movie)=>{
-                            const{title,id,backdrop_path} = movie;
+                        data.map((movie) => {
+                                    const {
+                                        title,
+                                        id,
+                                        backdrop_path
+                                    } = movie;
                             return(
                                 <div className="col-lg-3 col-sm-6 my-2" key={id}>
                                     <h3>

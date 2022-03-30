@@ -6,17 +6,17 @@ import MovieDisplay from './Components/MovieDisplay';
 import FilterButtons from './Components/FilterButtons';
 
 const App = () => {
-    const[movieData,setMovieData] = useState([]);
-    const[filterData,setFilterData] = useState([]);
-    const[genreIds,setGenreIds] = useState(0);
+    const [movieData, setMovieData] = useState([]);
+    const [filterData, setFilterData] = useState([]);
+    const [genreIds, setGenreIds] = useState(0);
 
     const fetchData = () => {
         const baseURL = `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1`;
 
-        axios   
+        axios
             .get(baseURL)
 
-            .then((response)=>{
+            .then((response) => {
                 const result = response.data;
                 // console.log(result);
                 // Invoke state functions
@@ -30,7 +30,7 @@ const App = () => {
     }
 
     // Invoke useEffect hook
-    useEffect(fetchData,[]);
+    useEffect(fetchData, []);
 
     return(
         <>

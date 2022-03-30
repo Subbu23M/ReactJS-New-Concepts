@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 const FilterButtons = ({movieData,setFilterData,setGenreIds,genreIds}) => {
     const filterResult = () => {
-        if(genreIds === 0){
+        if (genreIds === 0) {
             setFilterData(movieData)
             return;
         }
@@ -12,7 +12,7 @@ const FilterButtons = ({movieData,setFilterData,setGenreIds,genreIds}) => {
         setFilterData(filterData);
     }
 
-    useEffect(filterResult,[genreIds]);
+    useEffect(filterResult, [genreIds]);
 
     return(
         <div
