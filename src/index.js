@@ -43,7 +43,9 @@ import ReactDOM from 'react-dom';
 
 // import App from './Todo-List-Class-Based-Components/App';
 
-import App from './Life-Cycle-Methods/App';
+// import App from './Life-Cycle-Methods/App';
+
+import App from './Awesome-Filtering-Animation/App';
 
 const rootElement = document.getElementById('root');
 
