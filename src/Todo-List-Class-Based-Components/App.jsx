@@ -83,7 +83,7 @@ class App extends React.Component{
                             />
                             <button
                                 type='submit'
-                                className='btn btn-primary my-2'
+                                className='btn btn-primary my-2 shadow-none'
                                 onClick={this.addTask}
                             >
                                 Add Task

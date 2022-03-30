@@ -43,6 +43,8 @@ import ReactDOM from 'react-dom';
 
 // import App from './Todo-List-Class-Based-Components/App';
 
+import App from './Life-Cycle-Methods/App';
+
 const rootElement = document.getElementById('root');
 
 // ReactDOM.render(
