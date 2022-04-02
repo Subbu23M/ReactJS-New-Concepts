@@ -39,3 +39,6 @@
 
 15)To install React Splide
   npm install @splidejs/react-splide
+
+16)To install react-paginate
+   npm i react-paginate

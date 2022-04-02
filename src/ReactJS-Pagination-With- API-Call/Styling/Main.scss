@@ -1,0 +1,22 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-size: 1.4rem;
+    cursor: pointer;
+    display: block;
+
+    &:hover {
+        text-decoration: none;
+        color: lightcoral;
+    }
+}
+
+.email{
+    font-size: 0.9rem;
+}

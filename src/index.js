@@ -47,6 +47,8 @@ import ReactDOM from 'react-dom';
 
 // import App from './Awesome-Filtering-Animation/App';
 
+import App from './ReactJS-Pagination-With- API-Call/App';
+
 const rootElement = document.getElementById('root');
 
 // ReactDOM.render(
@@ -56,9 +58,9 @@ const rootElement = document.getElementById('root');
 //   rootElement
 // );
 
-ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
-    rootElement
-);
+// ReactDOM.render(
+//     <React.StrictMode>
+//         <App />
+//     </React.StrictMode>,
+//     rootElement
+// );
